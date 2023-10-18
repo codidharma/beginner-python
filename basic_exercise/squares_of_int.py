@@ -11,3 +11,9 @@ while i < input_n:
     i = i +1
 
 print(f"Sum of odd integers less than {input_n} is {sum}")
+
+sum2 = 0
+for i in range(input_n):
+    if(i & 1) != 0:
+        sum2 += i * i
+print(f"Sum of odd integers less than {input_n} is {sum2}")
